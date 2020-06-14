@@ -119,7 +119,7 @@ def type_Key(tChar):
 
 def count_Down():
 
-    count = 5
+    count = 10
 
     while count >= 0:
 
