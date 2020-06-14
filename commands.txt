@@ -1,0 +1,44 @@
+Built in Commands:
+
+<delay> - pause for 2 secs.
+
+<keySound /path_to/file> - play a sound file every key press, the sound file should be short! 
+						   example: <keySound key.wav>
+
+<music /path_to/file> - play a backgound music (mp3, ogg, wav, etc...)
+
+<sound /path_to/sound> - play a sound file, should be shorter than the time to execute the text file
+
+<volSound nn> - sound volume % 0 to 99
+
+<volMusic nn> - music volume % 0 to 99
+
+<volKey nn> - key sound volume % 0 to 99
+
+
+any combination of special keys (max 3 keys):
+
+<ctrl+c>
+
+<ctrl+d>
+
+<ctrl+shift+c>
+
+etc...
+
+avayable keys:
+
+cKeys = ["alt", "alt_gr", "alt_l", "alt_r", "backspace", "caps_lock", "caps_lock", "cmd", "cmd_l",
+         "cmd_r", "ctrl", "ctrl_l", "ctrl_r", "delete", "down", "end", "enter", "esc", "f1", "f10",
+         "f11", "f12", "f13", "f14", "f15", "f16", "f17", "f18", "f19", "f2", "f20", "f3", "f4", "f5",
+         "Fey.f6", "f7", "f8", "f9", "home", "insert", "left", "media_next", "media_play_pause",
+         "media_previous", "media_volume_down", "media_volume_mute", "media_volume_up", "menu", "num_lock",
+         "page_down", "page_up", "pause", "print_screen", "right", "scroll_lock", "shift", "shift_l",
+         "shift_r", "space", "tab", "up"]
+         
+Any combination is possible of 3 keys. The first declared key is manteined pressed until the last of the 3 keys is pressed.
+
+
+
+
+
