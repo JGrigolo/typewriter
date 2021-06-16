@@ -5,7 +5,7 @@ Built in Commands:
 <keySound /path_to/file> - play a sound file every key press, the sound file should be short! 
 						   example: <keySound key.wav>
 
-<music /path_to/file> - play a backgound music (mp3, ogg, wav, etc...)
+<music /path_to/file> - play a background music (mp3, ogg, wav, etc...)
 
 <sound /path_to/sound> - play a sound file, should be shorter than the time to execute the text file
 
